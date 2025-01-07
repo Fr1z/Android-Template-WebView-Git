@@ -20,10 +20,10 @@ import java.io.File
 class MainActivity : AppCompatActivity() {
 
     // Repository remote and branch
-    private val repoURL = "https://github.com/Fr1z/TaskBoard-JS.git"
-    private val repoBranch = "webclient" // Edit with your  branch
+    private val repoURL = "https://github.com/yourusername/yourrepo.git"
+    private val repoBranch = "main" // Edit with your  branch
     private val localWebHostName = "localstack.com"
-    private val entryPoint = "dash.html" //replace with your index.html relative path
+    private val entryPoint = "index.html" //replace with your index.html relative path
 
     private val permitOfflineUse: Boolean = true //set to false if internet is always required
 
